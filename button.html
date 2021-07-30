@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en" style="background: rgb(155, 155, 192)">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Christine Godfrey | About</title><!--sets title on webbrowswer-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<html>
+   <!--btn 1 message appears under button runs 6 times and stops-->
+   <div>
+    btn1 .js & .css & html <br>
+    this kills button 2 so will not continue <br>
+        <button type="document" id="btn1">Click Me</button>
+        <p id="output"></p>
+    </div>
+ 
+<hr id="hr1"><!--color line accross usint css--> 
+
+  <!--btn 2-->
+    <div>
+    btn2 .js & .css & html <br>
+        <button type="button" id="btn2">Click Me</button>
+        <p id="messages"></p> 
+
+    </div>                  
+
+<hr color="#831515"> <!--not using css-->
+
+    <div>
+    <!--btn 3 no javascript only changes once when clicked-->
+    btn3 .html <br>
+        <button id="demo" onclick="myFunction()" style="background: blue; color: cornsilk;">Click me to change this workding</button>
+        <script>
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "This changed!";
+        }
+        </script>
+    </div>
+
+<hr id="hr2">
+
+<!--btn 4 no javascript only changes once when clicked, etxt change below-->
+    btn4 .html <br>
+    <script src="button.js"></script>
+        <button id="textChanger">Click me to change the text underneath</button>
+        <div id="firstDiv">This text will change on button click</div>
+        <script>
+        document.getElementById("textChanger").onclick= function()
+        {
+            document.getElementById("firstDiv").innerHTML="Text is changed!";
+        }
+    </script>
+
+<hr id="hr3">
+    
+</html>

@@ -1,0 +1,45 @@
+#btn1{
+    background: green;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  #btn2{
+    background: rgb(172, 113, 5);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+ #hr1{
+  height: 10px;
+  border-top: 3px dotted green;
+  background-color: whitesmoke;
+ }
+
+ #hr2{   
+    border-top: 3px double #831515;
+    color: #831515;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+#hr3 {
+  border: none;  /*removed white underline from hr2*/
+  border-top: 3px double #831515;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
